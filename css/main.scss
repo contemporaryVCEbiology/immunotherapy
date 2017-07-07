@@ -422,6 +422,10 @@ figcaption {
 .content {
     padding: 30px 20px 60px 20px;
 }
+.narrow {
+    max-width: 980px;
+    margin: 0 auto;
+}
 .pageHeading {
     background: #63779c;
     padding: 30px 0;
