@@ -640,7 +640,7 @@ ul.tabs li a.current {
 .resources .phase {
     margin-bottom: 3em;
 }
-.resource {
+.resource, .activity {
     max-width: 350px;
     position: relative;
     background: #fbe67a;
@@ -659,7 +659,7 @@ ul.tabs li a.current {
 .resource.hover a.download {
     color: #bd5963;
 }
-.resource.kit {
+.resource.kit, .activity {
     background: #fff;
     max-width: 100%;
 }
@@ -688,7 +688,8 @@ ul.tabs li a.current {
 .resource.video:before {
     background-image: url('../img/video.svg');
 }
-.resource > div {
+.resource > div,
+.activity {
     padding: 20px;
     h5 {
         margin-top: 0;
@@ -1032,7 +1033,7 @@ a.download:hover {
     .site-header nav {
         display: none;
     }
-    .resource {
+    .resource, .activity {
         width: 100%;
         max-width: none;
     }
